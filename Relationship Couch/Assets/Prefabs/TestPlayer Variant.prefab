@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &4189874639336788074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4481194922712892322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6f00446844a44ac5b197c666ff94339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zoomFOV: 30
+  zoomSpeed: 9
 --- !u!1001 &4481194922712990978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9,7 +23,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100002, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 3}
       propertyPath: m_Name
-      value: TestPlayer
+      value: TestPlayer Variant
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -67,5 +81,15 @@ PrefabInstance:
       propertyPath: field of view
       value: 60
       objectReference: {fileID: 0}
+    - target: {fileID: 11400014, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 3}
+      propertyPath: jumpSpeed
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 3}
+--- !u!1 &4481194922712892322 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: f27b3fd2e6b194b9b964e097240e5f2c,
+    type: 3}
+  m_PrefabInstance: {fileID: 4481194922712990978}
+  m_PrefabAsset: {fileID: 0}
