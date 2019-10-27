@@ -26,7 +26,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.5
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -34,23 +34,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2
+      value: -22
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.38253617
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9239406
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 3}
       propertyPath: m_RootOrder
@@ -62,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -44.982002
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -71,6 +71,14 @@ PrefabInstance:
     - target: {fileID: 2300000, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208642958, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 3}
+      propertyPath: volumeLayer.m_Bits
+      value: 1024
+      objectReference: {fileID: 0}
+    - target: {fileID: 208642958, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 3}
+      propertyPath: antialiasingMode
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 3}

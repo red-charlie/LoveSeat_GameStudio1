@@ -494,7 +494,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3132424
+  m_Name: pb_Mesh-3666568
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -657,7 +657,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3132658
+  m_Name: pb_Mesh-3666802
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -820,7 +820,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3132656
+  m_Name: pb_Mesh-3666800
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1361,7 +1361,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3132654
+  m_Name: pb_Mesh-3666798
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2168,7 +2168,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &944745836
 Transform:
   m_ObjectHideFlags: 0
@@ -2475,7 +2475,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3132408
+  m_Name: pb_Mesh-3666552
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3087,7 +3087,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3132406
+  m_Name: pb_Mesh-3666550
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3570,7 +3570,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3132434
+  m_Name: pb_Mesh-3666578
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8084,11 +8084,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: EscMenu
-      objectReference: {fileID: 0}
-    - target: {fileID: 8589353260824562984, guid: 6421ee868cb200b43a9b8576d0bafbcf,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8589353260824562996, guid: 6421ee868cb200b43a9b8576d0bafbcf,
         type: 3}
