@@ -845,6 +845,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 8589353260824562984, guid: 6421ee868cb200b43a9b8576d0bafbcf,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8589353260824562996, guid: 6421ee868cb200b43a9b8576d0bafbcf,
         type: 3}
       propertyPath: m_LocalPosition.x
