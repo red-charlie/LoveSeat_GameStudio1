@@ -33,7 +33,7 @@ public class ZoomRaycast : MonoBehaviour
                     GameObject thingHit = hit.collider.gameObject;
                     thingHit.GetComponent<AudioSource>().Play();
 
-                    MeshCollider hitAgain = thingHit.GetComponent<MeshCollider>();
+                    Collider hitAgain = thingHit.GetComponent<Collider>();
                     hitAgain.isTrigger = false;
 
 
