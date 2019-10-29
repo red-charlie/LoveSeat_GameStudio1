@@ -19,7 +19,7 @@ public class EscMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown("escape")){
+        if(Input.GetKeyDown("tab")){
            if (Paused == true) {
                
                  EscMenu_1.gameObject.SetActive (false);
