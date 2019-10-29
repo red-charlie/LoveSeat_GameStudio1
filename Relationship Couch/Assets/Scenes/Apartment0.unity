@@ -1050,7 +1050,7 @@ Transform:
   m_GameObject: {fileID: 303315543}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -12.215, y: 8.21, z: 12.31}
-  m_LocalScale: {x: 1.9721, y: 1, z: 1}
+  m_LocalScale: {x: 1.9721, y: 2.0718, z: 1}
   m_Children: []
   m_Father: {fileID: 724881218}
   m_RootOrder: 10
@@ -3321,8 +3321,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1883800058}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.92, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.92, y: -0.158, z: 0}
+  m_LocalScale: {x: 1, y: 0.22737588, z: 1}
   m_Children: []
   m_Father: {fileID: 1964148815}
   m_RootOrder: 0
@@ -7932,6 +7932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ApartmentBase
       objectReference: {fileID: 0}
+    - target: {fileID: 644330381, guid: 0104209ebcacf1042a149dd0c9347a41, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6661224858139467403, guid: 0104209ebcacf1042a149dd0c9347a41,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8125,10 +8129,6 @@ PrefabInstance:
     - target: {fileID: 628640731, guid: 0104209ebcacf1042a149dd0c9347a41, type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 644330381, guid: 0104209ebcacf1042a149dd0c9347a41, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0104209ebcacf1042a149dd0c9347a41, type: 3}
