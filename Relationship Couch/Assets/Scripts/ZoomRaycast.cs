@@ -30,7 +30,7 @@ public class ZoomRaycast : MonoBehaviour
                 Debug.Log("sound can play again");
             }
 
-            if (audioHit.isPlaying)
+            else 
             {
                 audioPlaying = true;
                 Debug.Log("It's playing no shooty");
