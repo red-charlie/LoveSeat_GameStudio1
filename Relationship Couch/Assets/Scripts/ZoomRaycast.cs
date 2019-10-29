@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ZoomRaycast : MonoBehaviour
 {
     public Camera cam;
-
+    public GameObject BlackScreen;
+    public string sceneName;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +40,17 @@ public class ZoomRaycast : MonoBehaviour
 
 
                     Debug.Log("is playing? " + thingHit.GetComponent<AudioSource>().isPlaying);
+                    
+                    //if it's the end of the game. Go back to beginning.
+                    if (thingHit.name == "EndGame"){
+                        print("The Game will end here");
+                         
+                          Animator fadeOut = BlackScreen.GetComponent<Animator>();
+                          fadeOut.Play("FadeOut");
+                          StartCoroutine(sceneLoad());
+                         
+
+                    }
 
                 }
                
@@ -45,5 +58,15 @@ public class ZoomRaycast : MonoBehaviour
         }
 
     }
+    IEnumerator sceneLoad() {
+        //This waits for the animation to finish before switching scenes
+            //yield return null;
+            yield return new WaitForSeconds(3.5f);
+            print("Loading next scene");
+             SceneManager.LoadScene(sceneName);
+             Cursor.lockState = CursorLockMode.None;
+             Cursor.visible = true;
+             
+            }
 }
 

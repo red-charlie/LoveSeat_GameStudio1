@@ -179,6 +179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Apartment2
+  BlackScreen: {fileID: 6661224857100459092}
 --- !u!1 &285754758
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,7 +404,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1805966
+  m_Name: pb_Mesh-5268862
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1068,7 +1069,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1805970
+  m_Name: pb_Mesh-5268866
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1375,7 +1376,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1805738
+  m_Name: pb_Mesh-5268636
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1604,7 +1605,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1805746
+  m_Name: pb_Mesh-5268642
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1767,7 +1768,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1805722
+  m_Name: pb_Mesh-5268620
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1930,7 +1931,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1805968
+  m_Name: pb_Mesh-5268864
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2093,7 +2094,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1805720
+  m_Name: pb_Mesh-5268618
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2747,6 +2748,51 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4434391696855792696, guid: b57b9f30692a71c4e82c2e78fa998c06,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 01f87cce580314df483950d9a148b969, type: 3}
+    - target: {fileID: 4434391694772433672, guid: b57b9f30692a71c4e82c2e78fa998c06,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b93d73897cf4247eb9b36d880d53e8a6, type: 3}
+    - target: {fileID: 4434391694943571831, guid: b57b9f30692a71c4e82c2e78fa998c06,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 610c032586373400eace2ae42f3d2e8d, type: 3}
+    - target: {fileID: 4434391695809781303, guid: b57b9f30692a71c4e82c2e78fa998c06,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 54b5003013ec84974ad6492260221c9a, type: 3}
+    - target: {fileID: 4434391696245365891, guid: b57b9f30692a71c4e82c2e78fa998c06,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f96c145fbea64e0284892e33567a281, type: 3}
+    - target: {fileID: 4434391696342427248, guid: b57b9f30692a71c4e82c2e78fa998c06,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4fbf34f02eafb42669e028eb198c1cd4, type: 3}
+    - target: {fileID: 4434391696500238167, guid: b57b9f30692a71c4e82c2e78fa998c06,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8dd029bd7ab5440f39d83082112bb2ef, type: 3}
+    - target: {fileID: 4434391696758839449, guid: b57b9f30692a71c4e82c2e78fa998c06,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 4434391696758839448, guid: b57b9f30692a71c4e82c2e78fa998c06,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 246a9ab2c76034244926fe84ecc66a22, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b57b9f30692a71c4e82c2e78fa998c06, type: 3}
 --- !u!1001 &6661224857100459091
@@ -2992,3 +3038,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0104209ebcacf1042a149dd0c9347a41, type: 3}
+--- !u!1 &6661224857100459092 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 644330381, guid: 0104209ebcacf1042a149dd0c9347a41,
+    type: 3}
+  m_PrefabInstance: {fileID: 6661224857100459091}
+  m_PrefabAsset: {fileID: 0}

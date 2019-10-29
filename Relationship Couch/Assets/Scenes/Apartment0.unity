@@ -455,7 +455,17 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 892725717, guid: df7e753ab556cb743af81a71b1ab424e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 846601854, guid: df7e753ab556cb743af81a71b1ab424e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8a186c3f6dd324616b9a75483acd8491, type: 3}
+    m_RemovedComponents:
+    - {fileID: 452735281, guid: df7e753ab556cb743af81a71b1ab424e, type: 3}
+    - {fileID: 452735278, guid: df7e753ab556cb743af81a71b1ab424e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: df7e753ab556cb743af81a71b1ab424e, type: 3}
 --- !u!4 &223655013 stripped
 Transform:
@@ -502,7 +512,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 224785454}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.19, y: 11.5, z: 14.49}
+  m_LocalPosition: {x: 6.95, y: 11.5, z: 14.49}
   m_LocalScale: {x: 1, y: 1, z: 0.16554}
   m_Children: []
   m_Father: {fileID: 0}
@@ -521,6 +531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Apartment1
+  BlackScreen: {fileID: 1357538439}
 --- !u!43 &242198879
 Mesh:
   m_ObjectHideFlags: 0
@@ -853,7 +864,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2574
+  m_Name: pb_Mesh-878604
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1054,7 +1065,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e829d6e67ea2041afb20080c543dfe57, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6de0b88f7b8174f59b3b30aaee6e57ab, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1243,7 +1254,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0e8ad86fd1236e24ea362d696f699ff1, type: 3}
+  m_audioClip: {fileID: 8300000, guid: db975c787ea994545bfa1dc3c82b3af0, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2502,6 +2513,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1357538439 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 644330381, guid: 0104209ebcacf1042a149dd0c9347a41,
+    type: 3}
+  m_PrefabInstance: {fileID: 6661224857100459091}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1401278267
 Mesh:
   m_ObjectHideFlags: 0
@@ -2823,7 +2840,7 @@ Transform:
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 724881218}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 77.86201, y: 0, z: 0}
 --- !u!64 &1501517100
 MeshCollider:
@@ -3120,7 +3137,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2328
+  m_Name: pb_Mesh-1002300
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8103,11 +8120,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1771793234, guid: 0104209ebcacf1042a149dd0c9347a41, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 628640731, guid: 0104209ebcacf1042a149dd0c9347a41, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 644330381, guid: 0104209ebcacf1042a149dd0c9347a41, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0104209ebcacf1042a149dd0c9347a41, type: 3}
